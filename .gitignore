@@ -1,0 +1,16 @@
+.env
+*.db
+__pycache__
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+VENV/
