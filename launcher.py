@@ -53,11 +53,6 @@ def run_app():
 
 if __name__ == "__main__":
 
-    if not os.path.exists(sys.executable):
-        print("❌ Python not found on system")
-        input("Press Enter to exit...")
-        sys.exit()
-
     create_venv()
     install_requirements()
     time.sleep(1)
